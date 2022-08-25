@@ -72,8 +72,8 @@ const containerDiv = document.querySelector(".container");
 const carritoDiv = document.querySelector(".shoppingCartItemsContainer");
 
 //USO DE JSON
-let carrito = JSON.parse(localStorage.getItem("carrito")) 
-//Poner esto para el proximo desafio|| [];
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+//Poner esto para el proximo desafio || [];
 
 function crearCards() {
   productos.forEach((prod) => {
